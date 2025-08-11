@@ -36,22 +36,20 @@
   vim +PlugInstall +qall
   ```
 
-🔧 Customization
+## 🔧 Customization
 
-  Adding New Language Configuration
+  ### Adding New Language Configuration
 
   cd ~/.vim
   git checkout base
   git checkout -b new-language
 
-  # Edit vimrc to add specific plugins
   vim vimrc
 
-  # Commit changes
   git add .
   git commit -m "Add new-language configuration"
 
-  Update Branch with Base Changes
+  ### Update Branch with Base Changes
 
   git checkout your-branch
   git merge base
