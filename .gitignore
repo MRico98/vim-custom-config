@@ -1,0 +1,13 @@
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# Netrw history
+.netrwhist
+
+# Plugins
+plugged/
+
+# AI Assistant
+.claude/
